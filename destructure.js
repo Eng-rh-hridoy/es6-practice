@@ -13,9 +13,9 @@ const person = {
 // console.log(age);
 // console.log(add);
 
-// console.log(preson.name);
-// console.log(preson.Phone);
-// console.log(preson.gfName);
+// console.log(person.name);
+// console.log(person.Phone);
+// console.log(person.gfName);
 
 const { name, Age, Phone, Address, gfName } = person; // Destructure the object
 console.log(name);
