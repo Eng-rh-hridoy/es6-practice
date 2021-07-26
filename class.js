@@ -1,4 +1,4 @@
-class student{
+class Student{
     constructor(id, name){
         this.Id = id;
         this.Name = name;
@@ -7,9 +7,9 @@ class student{
 }
 
 
-const Stu1 = new student(0001, "Rahul");
-const Stu2 = new student(0002, "Nobita");
-console.log(Stu1);
-console.log(Stu1.Id);
-console.log(Stu2);
-console.log(Stu2.Id);
+const stu1 = new student(0001, "Rahul");
+const stu2 = new student(0002, "Nobita");
+console.log(stu1);
+console.log(stu1.Id);
+console.log(stu2);
+console.log(stu2.Id);
