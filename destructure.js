@@ -1,5 +1,5 @@
 const person = {
-    name: "Jacky Mong",
+    Name: "Jacky Mong",
     Age: 23,
     Phone: 1788521450,
     Address: "Rangamati",
@@ -17,7 +17,7 @@ const person = {
 // console.log(person.Phone);
 // console.log(person.gfName);
 
-const { name, Age, Phone, Address, gfName } = person; // Destructure the object
-console.log(name);
+const { Name, Age, Phone, Address, gfName } = person; // Destructure the object
+console.log(Name);
 console.log(Phone);
 console.log(gfName);
